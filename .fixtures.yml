@@ -1,0 +1,5 @@
+fixtures:
+  repositories:
+    rbenv: "git@github.com:justindowning/puppet-rbenv.git"
+  symlinks:
+    ruby: "#{source_dir}"

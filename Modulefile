@@ -1,0 +1,10 @@
+name          'Ruby'
+version       '0.0.1'
+source        '.'
+author        'Tim Cooper'
+license       'MIT'
+summary       'A thin wrapper around installing default ruby'
+description   'A thin wrapper around installing default ruby'
+project_page  'https://github.com/everydayhero/puppet-ruby'
+
+dependency 'puppet/rbenv'
