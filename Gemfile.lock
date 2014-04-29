@@ -43,7 +43,8 @@ GEM
     diff-lcs (1.2.5)
     excon (0.31.0)
     extlib (0.9.16)
-    facter (1.7.5)
+    facter (2.0.1)
+      CFPropertyList (~> 2.2.6)
     faraday (0.8.9)
       multipart-post (~> 1.2.0)
     fission (0.5.0)
@@ -90,9 +91,10 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (2.8.0)
     nokogiri (1.5.10)
-    puppet (3.4.3)
-      facter (~> 1.6)
+    puppet (3.5.1)
+      facter (> 1.6, < 3)
       hiera (~> 1.0)
+      json_pure
       rgen (~> 0.6.5)
     puppet-blacksmith (2.0.2)
       nokogiri
@@ -149,7 +151,7 @@ PLATFORMS
 DEPENDENCIES
   beaker
   beaker-rspec
-  puppet (~> 3.4.0)
+  puppet (~> 3.5.1)
   puppet-blacksmith
   puppet-lint
   puppet-syntax
